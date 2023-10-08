@@ -1,0 +1,2 @@
+# OpenSoftwareFoundation
+OSF standardized monorepo.
