@@ -10,6 +10,4 @@ importers:
 
   OpenConfig: {}
 
-  OpenProjectPlanner/OpenProjectPlanner-API: {}
-
-  OpenProjectPlanner/OpenProjectPlanner-Portal: {}
+  OpenProjectPlanner: {}
