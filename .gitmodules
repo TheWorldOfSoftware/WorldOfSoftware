@@ -1,0 +1,3 @@
+[submodule "OpenConfig"]
+	path = OpenConfig
+	url = git@github.com:OpenSoftwareFoundation/OpenConfig.git
