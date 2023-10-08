@@ -1,0 +1,25 @@
+{
+  "name": "opensoftwarefoundation",
+  "version": "1.0.0",
+  "description": "Main work repository for the OpenSoftwareFoundation.",
+  "keywords": [
+    "opensoftwarefoundation",
+    "osf",
+    "open source",
+    "global operations"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Scraps",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OpenSoftwareFoundation/OpenSoftwareFoundation.git"
+  },
+  "files": [
+    ""
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "private": true
+}
