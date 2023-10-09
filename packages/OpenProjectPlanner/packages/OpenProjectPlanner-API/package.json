@@ -1,0 +1,28 @@
+{
+  "name": "openprojectplanner-api",
+  "version": "1.0.0",
+  "description": "The OpenProjectPlanner official Web API.",
+  "keywords": [
+    "OpenSoftwareFoundation",
+    "OSF",
+    "open source",
+    "global operations",
+    "OpenProjectPlanner",
+    "management software",
+    "web api"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Scraps",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OpenSoftwareFoundation/OpenProjectPlanner-API.git"
+  },
+  "files": [
+    ""
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "private": true
+}
