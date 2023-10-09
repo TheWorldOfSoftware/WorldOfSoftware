@@ -1,0 +1,6 @@
+[submodule "packages/OpenConfig"]
+	path = packages/OpenConfig
+	url = git@github.com:OpenSoftwareFoundation/OpenConfig.git
+[submodule "packages/OpenProjectPlanner"]
+	path = packages/OpenProjectPlanner
+	url = git@github.com:OpenSoftwareFoundation/OpenProjectPlanner.git
