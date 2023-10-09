@@ -16,10 +16,12 @@
     "noUnusedParameters": true,
     "strict": true,
     // Modules
-    "baseUrl": ".",
+    "allowUmdGlobalAccess": false,
+    "baseUrl": "packages",
     "module": "NodeNext",
+    "resolveJsonModule": true,
     // Emit
-    "newLine": "lf",
+    "noEmit": true,
     "noEmitOnError": true,
     "outDir": "dist",
     "removeComments": true,
