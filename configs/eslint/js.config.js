@@ -1,4 +1,4 @@
-import eslint from "@eslint/js";
+import js from "@eslint/js";
 
 const bannedGlobals = [],
   bannedImportPatterns = [],
@@ -34,14 +34,13 @@ const bannedGlobals = [],
   ]
 
 export default [
-  eslint.configs.recommended,
+  js.configs.recommended,
   {
     linterOptions: {
       noInlineConfig: true,
       reportUnusedDisableDirectives: true
     },
     rules: {
-      ...eslint.configs.recommended.rules,
       // Possible Problems
       "array-callback-return": "error",
       "no-await-in-loop": "error",
