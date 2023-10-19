@@ -1,37 +1,42 @@
 import js from "@eslint/js";
 
 const bannedGlobals = [],
-  bannedImportPatterns = [],
-  bannedImports = [],
-  bannedKeywords = [
-    "error",
-    "object",
-    "array",
-    "null",
-    "string",
-    "number",
-    "boolean",
-    "bigint",
-    "bigInt",
-    "callback",
-    "callBack",
-    "data",
-    "default",
-    "event"
-  ],
-  bannedProperties = [],
-  bannedSyntax = [
-    {
-      selector: "DebuggerStatement",
-      message: "Please use your IDE's built-in debugger instead."
-    }
-  ],
+bannedImportPatterns = [],
+bannedImports = [],
+bannedKeywords = [
+  "error",
+  "object",
+  "array",
+  "null",
+  "string",
+  "number",
+  "boolean",
+  "bigint",
+  "bigInt",
+  "callback",
+  "callBack",
+  "data",
+  "default",
+  "event"
+],
+bannedProperties = [],
+bannedSyntax = [
+  {
+    selector: "DebuggerStatement",
+    message: "Please use your IDE's built-in debugger instead."
+  },
+  {
+    selector: "ClassExpression",
+    message: "Class expressions are not allowed. Please use a named class instead."
+  }
+],
+permittedShortKeywords = [
+  "x",
+  "y",
+  "z"
+];
 
-  permittedShortKeywords = [
-    "x",
-    "y",
-    "z"
-  ]
+export { bannedKeywords };
 
 export default [
   js.configs.recommended,
