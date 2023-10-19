@@ -36,7 +36,11 @@ permittedShortKeywords = [
   "z"
 ];
 
-export { bannedKeywords };
+export {
+  bannedImportPatterns,
+  bannedImports,
+  bannedKeywords
+};
 
 export default [
   js.configs.recommended,
