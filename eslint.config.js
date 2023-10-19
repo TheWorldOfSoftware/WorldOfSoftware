@@ -1,12 +1,11 @@
 import baseConfig from "./configs/eslint/base.config.js";
 
 export default [
+  ...baseConfig,
   {
-    ...baseConfig,
-    files: ["packages/**/*"]
-  },
-  {
-    ...baseConfig,
-    files: ["configs/**/*"]
+    files: [
+      "packages/**/*",
+      "configs/**/*"
+    ]
   }
 ];
