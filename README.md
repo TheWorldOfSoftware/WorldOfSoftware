@@ -1,2 +1,3 @@
-# OpenSoftwareFoundation
-OSF standardized monorepo.
+# OpenSoftwareCorp
+
+OSC standardized monorepo.

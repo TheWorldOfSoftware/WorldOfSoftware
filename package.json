@@ -1,9 +1,9 @@
 {
-  "name": "opensoftwarefoundation",
+  "name": "opensoftwarecorp",
   "version": "1.0.0",
-  "description": "Main work repository for the OpenSoftwareFoundation.",
+  "description": "Main work repository for the OpenSoftwareCorp.",
   "keywords": [
-    "OpenSoftwareFoundation",
+    "OpenSoftwareCorp",
     "OSF",
     "open source",
     "global operations"
@@ -13,7 +13,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/OpenSoftwareFoundation/OpenSoftwareFoundation.git"
+    "url": "git+ssh://git@github.com/OpenSoftwareCorp/OpenSoftwareCorp.git"
   },
   "type": "module",
   "scripts": {
