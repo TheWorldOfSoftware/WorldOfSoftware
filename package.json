@@ -15,9 +15,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/OpenSoftwareFoundation/OpenSoftwareFoundation.git"
   },
-  "files": [
-    ""
-  ],
+  "type": "module",
+  "scripts": {
+    "lint": "eslint packages/**",
+    "lint:config": "eslint configs/**/*"
+  },
   "engines": {
     "node": ">=18.17.0"
   },
