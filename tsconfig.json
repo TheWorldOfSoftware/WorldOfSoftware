@@ -17,7 +17,6 @@
     "strict": true,
     // Modules
     "allowUmdGlobalAccess": false,
-    "baseUrl": "packages",
     "module": "NodeNext",
     "resolveJsonModule": true,
     // Emit
