@@ -1,10 +1,11 @@
 {
   "name": "opensoftwarecorp",
   "version": "1.0.0",
-  "description": "Main work repository for the OpenSoftwareCorp.",
+  "description": "Official monorepo managed and maintained by the OpenSoftware corporation and community.",
   "keywords": [
+    "OpenSoftware",
     "OpenSoftwareCorp",
-    "OSF",
+    "OSC",
     "open source",
     "global operations"
   ],
