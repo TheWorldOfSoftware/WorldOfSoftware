@@ -1,3 +1,3 @@
 # OpenSoftwareCorp
 
-OSC standardized monorepo.
+Official monorepo managed and maintained by the OpenSoftware corporation and community.
