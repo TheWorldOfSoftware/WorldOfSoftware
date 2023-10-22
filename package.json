@@ -1,5 +1,5 @@
 {
-  "name": "opensoftwarecorp",
+  "name": "@opensoftware/opensoftware",
   "version": "1.0.0",
   "description": "Official monorepo managed and maintained by the OpenSoftware corporation and community.",
   "keywords": [
