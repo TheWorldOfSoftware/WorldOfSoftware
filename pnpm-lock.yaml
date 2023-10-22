@@ -11,6 +11,9 @@ importers:
       '@eslint/js':
         specifier: ^8.51.0
         version: 8.51.0
+      '@opensoftware/openconfig':
+        specifier: workspace:^
+        version: link:packages/OpenConfig
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.8.0
         version: 6.8.0(@typescript-eslint/parser@6.8.0)(eslint@8.51.0)(typescript@5.2.2)
@@ -26,6 +29,8 @@ importers:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
+
+  packages/OpenConfig: {}
 
   packages/OpenProjectPlanner: {}
 

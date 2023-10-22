@@ -1,33 +1,6 @@
 {
+  "extends": "./packages/OpenConfig/configs/typescript/tsconfig.json",
   "include": [
     "packages/**/*"
-  ],
-  "compilerOptions": {
-    // Type Checking
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strict": true,
-    // Modules
-    "allowUmdGlobalAccess": false,
-    "module": "NodeNext",
-    "resolveJsonModule": true,
-    // Emit
-    "noEmit": true,
-    "noEmitOnError": true,
-    "outDir": "dist",
-    "removeComments": true,
-    "sourceMap": true,
-    "stripInternal": true,
-    // Interop Constraints
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true
-  }
+  ]
 }

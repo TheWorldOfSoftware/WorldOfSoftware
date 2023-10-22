@@ -1,13 +1,5 @@
-import js, { bannedKeywords } from "./configs/eslint/js.config.js";
-
-const permittedKeywords = ["default"];
+import eslintConfig from "@opensoftware/openconfig/eslint";
 
 export default [
-  ...js,
-  {
-    files: ["configs/eslint/ts.config.js"],
-    rules: {
-      "id-denylist": ["error", ...bannedKeywords.filter(keyword => !permittedKeywords.includes(keyword))]
-    }
-  }
+  ...eslintConfig,
 ];
