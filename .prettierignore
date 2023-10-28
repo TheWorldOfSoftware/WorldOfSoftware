@@ -1,3 +1,6 @@
+# Build Files
+dist
+
 # Node
 package.json
 package-lock.json
