@@ -1,11 +1,10 @@
 {
-  "name": "@opensoftware/opensoftware",
+  "name": "@worldofsoftware/worldofsoftware",
   "version": "1.0.0",
-  "description": "Official monorepo managed and maintained by the OpenSoftware corporation and community.",
+  "description": "Official monorepo managed and maintained by the World of Software corporation and community.",
   "keywords": [
-    "OpenSoftware",
-    "OpenSoftwareCorp",
-    "OSC",
+    "WorldOfSoftware",
+    "WOS",
     "open source",
     "global operations"
   ],
@@ -14,7 +13,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/OpenSoftwareCorp/OpenSoftwareCorp.git"
+    "url": "git+ssh://git@github.com/TheWorldOfSoftwareCorp/WorldOfSoftware.git"
   },
   "type": "module",
   "scripts": {
@@ -28,7 +27,7 @@
   "private": true,
   "devDependencies": {
     "@eslint/js": "^8.52.0",
-    "@opensoftware/openconfig": "workspace:^",
+    "@worldofsoftware/openconfig": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",

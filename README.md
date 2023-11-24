@@ -1,3 +1,3 @@
-# OpenSoftwareCorp
+# WorldOfSoftware
 
-Official monorepo managed and maintained by the OpenSoftware corporation and community.
+Official monorepo managed and maintained by the World of Software corporation and community.

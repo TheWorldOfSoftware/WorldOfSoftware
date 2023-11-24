@@ -1,3 +1,3 @@
-import prettierConfig from "@opensoftware/openconfig/prettier";
+import prettierConfig from "@worldofsoftware/openconfig/prettier";
 
 export default prettierConfig;
