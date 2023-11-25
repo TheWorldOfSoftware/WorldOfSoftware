@@ -3,8 +3,6 @@
   "extends": "./configurations/configs/typescript/tsconfig.json",
   "include": [],
   "compilerOptions": {
-    "composite": true,
-    "noEmit": false,
-    "outDir": "dist"
+    "composite": true
   }
 }
