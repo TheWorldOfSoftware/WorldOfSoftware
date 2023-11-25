@@ -6,6 +6,8 @@
     "WorldOfSoftware",
     "WOS",
     "open source",
+    "community",
+    "open source community",
     "global operations"
   ],
   "license": "AGPL-3.0-or-later",
@@ -27,7 +29,7 @@
   "private": true,
   "devDependencies": {
     "@eslint/js": "^8.52.0",
-    "@worldofsoftware/openconfig": "workspace:^",
+    "@worldofsoftware/configs": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",

@@ -1,4 +1,4 @@
 {
-  "extends": "./packages/OpenConfig/configs/typescript/tsconfig.json",
-  "include": ["packages/**/*"]
+  "extends": "./configurations/typescript/tsconfig.json",
+  "include": ["packages/**/*", "configurations/**/*"]
 }

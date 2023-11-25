@@ -1,3 +1,3 @@
-import eslintConfig from "@worldofsoftware/openconfig/eslint";
+import eslintConfig from "@worldofsoftware/configs/eslint";
 
 export default [...eslintConfig];

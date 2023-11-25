@@ -11,15 +11,15 @@ importers:
       '@eslint/js':
         specifier: ^8.52.0
         version: 8.52.0
-      '@opensoftware/openconfig':
-        specifier: workspace:^
-        version: link:packages/OpenConfig
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.9.0
         version: 6.9.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2)
       '@typescript-eslint/parser':
         specifier: ^6.9.0
         version: 6.9.0(eslint@8.52.0)(typescript@5.2.2)
+      '@worldofsoftware/configs':
+        specifier: workspace:^
+        version: link:configurations
       eslint:
         specifier: ^8.52.0
         version: 8.52.0
@@ -30,13 +30,17 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  packages/OpenConfig:
+  configurations:
     dependencies:
       typescript:
         specifier: ^4.9.5
         version: 4.9.5
 
-  packages/OpenProjectPlanner: {}
+  packages/OpenProjectPlanner:
+    dependencies:
+      dotenv:
+        specifier: ^16.3.1
+        version: 16.3.1
 
 packages:
 
@@ -394,6 +398,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}

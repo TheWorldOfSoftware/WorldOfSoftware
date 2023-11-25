@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./packages/OpenConfig/configs/typescript/tsconfig.json",
+  "extends": "./configurations/typescript/tsconfig.json",
   "include": [
     "types/**/*"
   ],
