@@ -1,8 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./configurations/configs/typescript/tsconfig.json",
-  "include": [],
-  "compilerOptions": {
-    "composite": true
-  }
-}
