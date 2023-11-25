@@ -19,9 +19,10 @@
   },
   "type": "module",
   "scripts": {
+    "prebuild": "npm run format && npm run lint",
     "build": "tsc -b build.tsconfig.json",
-    "lint": "eslint .",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=18.17.0"

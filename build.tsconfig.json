@@ -1,9 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./configurations/configs/typescript/tsconfig.json",
-  "include": [
-    "types/**/*"
-  ],
+  "include": [],
   "compilerOptions": {
     "composite": true,
     "noEmit": false,
