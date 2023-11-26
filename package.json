@@ -19,7 +19,6 @@
   },
   "type": "module",
   "scripts": {
-    "prebuild": "npm run format && npm run lint",
     "format": "prettier . --write",
     "lint": "eslint ."
   },
