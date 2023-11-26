@@ -1,4 +1,0 @@
-{
-  "extends": "./configurations/configs/typescript/tsconfig.json",
-  "include": ["packages/**/*", "configurations/**/*"]
-}
