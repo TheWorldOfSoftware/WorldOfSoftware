@@ -20,7 +20,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier . --write",
-    "lint": "eslint ."
+    "lint": "eslint . --fix"
   },
   "engines": {
     "node": ">=18.17.0"
