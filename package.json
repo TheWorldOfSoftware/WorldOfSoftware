@@ -27,12 +27,31 @@
     "lint": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint"
   },
   "devDependencies": {
+    "@worldofsoftware/configs": "workspace:^",
+    "prettier": "^3.1.0"
+  },
+  "peerDependencies": {
     "@eslint/js": "^8.55.0",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
-    "@worldofsoftware/configs": "workspace:^",
     "eslint": "^8.55.0",
-    "prettier": "^3.1.0",
     "typescript": "^5.3.3"
+  },
+  "peerDependenciesMeta": {
+    "@eslint/js": {
+      "optional": true
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   }
 }
