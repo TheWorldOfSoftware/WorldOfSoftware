@@ -1,6 +1,3 @@
-# Excluded File Types
-*.json
-
 # Build Files
 dist
 
