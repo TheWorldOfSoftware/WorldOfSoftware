@@ -24,11 +24,12 @@
   "private": true,
   "scripts": {
     "format": "prettier . --write",
-    "lint": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint"
+    "lint": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint",
+    "precommit": "pnpm run format"
   },
   "devDependencies": {
     "@worldofsoftware/configs": "workspace:^",
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.1"
   },
   "peerDependencies": {
     "@eslint/js": "^8.55.0",

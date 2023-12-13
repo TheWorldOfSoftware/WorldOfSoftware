@@ -28,7 +28,7 @@ importers:
         specifier: workspace:^
         version: link:configurations
       prettier:
-        specifier: ^3.1.0
+        specifier: ^3.1.1
         version: 3.1.1
 
   configurations:
