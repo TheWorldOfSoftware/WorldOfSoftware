@@ -1,3 +1,1 @@
-import eslintConfig from "@worldofsoftware/configs/eslint";
-
-export default eslintConfig;
+export * from "@worldofsoftware/configs/eslint";
