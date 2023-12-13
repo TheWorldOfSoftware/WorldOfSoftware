@@ -18,14 +18,14 @@
     "url": "git+ssh://git@github.com/TheWorldOfSoftwareCorp/WorldOfSoftware.git"
   },
   "type": "module",
-  "scripts": {
-    "format": "prettier . --write",
-    "lint": "eslint . --fix"
-  },
   "engines": {
     "node": ">=18.17.0"
   },
   "private": true,
+  "scripts": {
+    "format": "prettier . --write",
+    "lint": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint"
+  },
   "devDependencies": {
     "@eslint/js": "^8.55.0",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
