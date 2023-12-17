@@ -27,6 +27,9 @@ importers:
       '@worldofsoftware/configs':
         specifier: workspace:^
         version: link:configurations
+      globals:
+        specifier: ^13.24.0
+        version: 13.24.0
       prettier:
         specifier: ^3.1.1
         version: 3.1.1
