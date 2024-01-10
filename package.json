@@ -23,37 +23,16 @@
   },
   "private": true,
   "scripts": {
-    "format": "prettier . --write",
-    "lint": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint",
-    "precommit": "pnpm run format"
+    "format": "prettier \"*.js\" \"*.md\" \"*.json\" \"*.yaml\" --write",
+    "format:all": "pnpm run format & pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run format",
+    "lint": "eslint .",
+    "lint:all": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint",
+    "precommit": "pnpm run format:all"
   },
   "devDependencies": {
     "@worldofsoftware/configs": "workspace:^",
+    "eslint": "^8.56.0",
     "globals": "^13.24.0",
     "prettier": "^3.1.1"
-  },
-  "peerDependencies": {
-    "@eslint/js": "^8.56.0",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
-  },
-  "peerDependenciesMeta": {
-    "@eslint/js": {
-      "optional": true
-    },
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    },
-    "eslint": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
   }
 }
