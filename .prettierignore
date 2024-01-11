@@ -5,6 +5,8 @@ LICENSE.*
 # Project Files
 ## Build Files
 dist
+configurations
+packages
 
 # Frameworks
 ## Node

@@ -22,9 +22,9 @@
   },
   "private": true,
   "scripts": {
-    "format": "prettier \"*.js\" \"*.md\" \"*.json\" \"*.yaml\" --write",
+    "format": "prettier \"**/*.{js,ts,md,json,yaml}\" --write",
     "format:all": "pnpm run format & pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run format",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "lint:all": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint",
     "precommit": "pnpm run format:all"
   },
