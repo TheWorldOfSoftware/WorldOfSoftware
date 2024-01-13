@@ -20,6 +20,9 @@ importers:
       prettier:
         specifier: ^3.2.1
         version: 3.2.1
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
 
   configurations:
     dependencies:
@@ -71,6 +74,9 @@ importers:
       '@types/uuid':
         specifier: ^9.0.7
         version: 9.0.7
+      '@worldofsoftware/configs':
+        specifier: workspace:^
+        version: link:../../../../configurations
 
   packages/OpenProjectPlanner/packages/OpenProjectPlanner-Portal: {}
 

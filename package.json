@@ -22,14 +22,11 @@
   },
   "private": true,
   "scripts": {
-    "format": "prettier \"**/*.{js,ts,md,json,yaml}\" --write",
-    "format:all": "pnpm run format & pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run format",
-    "lint": "eslint . --fix",
-    "lint:all": "pnpm --filter \"./configurations/**\" --filter \"./packages/**\" run lint",
-    "precommit": "pnpm run format:all"
+    "format": "pnpm --filter \"./configurations\" --filter \"./packages/*\" run format",
+    "lint": "pnpm --filter \"./configurations\" --filter \"./packages/*\" run lint",
+    "precommit": "pnpm run format"
   },
   "devDependencies": {
-    "@worldofsoftware/configs": "workspace:^",
     "eslint": "^8.56.0",
     "globals": "^13.24.0",
     "prettier": "^3.2.1"
