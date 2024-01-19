@@ -1,0 +1,19 @@
+# Legal
+LICENSE
+LICENSE.*
+
+# Project Files
+## Build Files
+dist
+
+# Frameworks
+## Node
+package.json
+package-lock.json
+
+## PNPM
+pnpm-lock.yaml
+
+# IDEs
+## VSCode
+*.code-workspace
