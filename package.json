@@ -32,12 +32,7 @@
     "globals": "^13.24.0",
     "prettier": "^3.2.4"
   },
-  "peerDependencies": {
+  "optionalDependencies": {
     "typescript": "^5.3.3"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
   }
 }
