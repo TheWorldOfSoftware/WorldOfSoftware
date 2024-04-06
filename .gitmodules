@@ -4,3 +4,6 @@
 [submodule "configurations"]
 	path = configurations
 	url = git@github.com:TheWorldOfSoftware/OpenConfig.git
+[submodule "packages/Gatekeeper"]
+	path = packages/Gatekeeper
+	url = git@github.com:TheWorldOfSoftware/Gatekeeper.git
