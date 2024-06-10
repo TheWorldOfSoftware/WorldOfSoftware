@@ -1,9 +1,9 @@
 [submodule "packages/OpenProjectPlanner"]
-	path = packages/OpenProjectPlanner
+	path = projects/OpenProjectPlanner
 	url = git@github.com:TheWorldOfSoftware/OpenProjectPlanner.git
 [submodule "configurations"]
 	path = configurations
 	url = git@github.com:TheWorldOfSoftware/OpenConfig.git
 [submodule "packages/Gatekeeper"]
-	path = packages/Gatekeeper
+	path = projects/Gatekeeper
 	url = git@github.com:TheWorldOfSoftware/Gatekeeper.git
