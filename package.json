@@ -29,7 +29,7 @@
   "devDependencies": {
     "@worldofsoftware/configs": "workspace:^",
     "eslint": "^8.57.0",
-    "globals": "^14.0.0",
+    "globals": "^15.4.0",
     "prettier": "^3.3.2"
   },
   "optionalDependencies": {
