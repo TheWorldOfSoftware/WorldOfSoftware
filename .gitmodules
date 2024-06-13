@@ -7,3 +7,6 @@
 [submodule "packages/Gatekeeper"]
 	path = projects/Gatekeeper
 	url = git@github.com:TheWorldOfSoftware/Gatekeeper.git
+[submodule "projects/Data-Control"]
+	path = projects/Data-Control
+	url = git@github.com:TheWorldOfSoftware/Data-Control.git
