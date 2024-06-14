@@ -41,6 +41,9 @@ importers:
 
   projects/Data-Control:
     devDependencies:
+      '@worldofsoftware/configs':
+        specifier: ^1.2.1
+        version: 1.2.1(eslint@8.57.0)(typescript@5.4.5)
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -420,6 +423,15 @@ packages:
     resolution: {integrity: sha512-j4jCOOXke2t8cHZCIxu1dzKLHLcFmYzC3yqAK6MfZznOL1QIJKd0xcFsXK3zcqzU7ScsE2zWkiMMNHGMHgp+FA==}
     engines: {node: '>=16'}
     hasBin: true
+
+  '@worldofsoftware/configs@1.2.1':
+    resolution: {integrity: sha512-4sdh/B19gCC3ujrpcup4ER0hQ2/x4qWxPq40oMHSRKZZHKf7QG/02vfmq9RumYGXu/+i54P/QColzO0EXNegqA==}
+    engines: {node: '>=20.11.0'}
+    peerDependencies:
+      typescript: ^5.4.5
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -2530,6 +2542,21 @@ snapshots:
       - encoding
       - supports-color
 
+  '@worldofsoftware/configs@1.2.1(eslint@8.57.0)(typescript@5.4.5)':
+    dependencies:
+      '@eslint/js': 8.57.0
+      eslint-plugin-import: 2.29.1(eslint@8.57.0)
+      globals: 15.4.0
+      typescript-eslint: 7.13.0(eslint@8.57.0)(typescript@5.4.5)
+    optionalDependencies:
+      typescript: 5.4.5
+    transitivePeerDependencies:
+      - '@typescript-eslint/parser'
+      - eslint
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - supports-color
+
   abbrev@1.1.1: {}
 
   abort-controller@3.0.0:
@@ -3074,6 +3101,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  eslint-module-utils@2.8.1(eslint-import-resolver-node@0.3.9)(eslint@8.57.0):
+    dependencies:
+      debug: 3.2.7
+    optionalDependencies:
+      eslint: 8.57.0
+      eslint-import-resolver-node: 0.3.9
+    transitivePeerDependencies:
+      - supports-color
+
   eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.13.0(eslint@8.57.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
@@ -3123,6 +3159,31 @@ snapshots:
       tsconfig-paths: 3.15.0
     optionalDependencies:
       '@typescript-eslint/parser': 7.5.0(eslint@8.57.0)(typescript@5.4.4)
+    transitivePeerDependencies:
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - supports-color
+
+  eslint-plugin-import@2.29.1(eslint@8.57.0):
+    dependencies:
+      array-includes: 3.1.8
+      array.prototype.findlastindex: 1.2.5
+      array.prototype.flat: 1.3.2
+      array.prototype.flatmap: 1.3.2
+      debug: 3.2.7
+      doctrine: 2.1.0
+      eslint: 8.57.0
+      eslint-import-resolver-node: 0.3.9
+      eslint-module-utils: 2.8.1(eslint-import-resolver-node@0.3.9)(eslint@8.57.0)
+      hasown: 2.0.2
+      is-core-module: 2.13.1
+      is-glob: 4.0.3
+      minimatch: 3.1.2
+      object.fromentries: 2.0.8
+      object.groupby: 1.0.3
+      object.values: 1.2.0
+      semver: 6.3.1
+      tsconfig-paths: 3.15.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
