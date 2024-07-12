@@ -26,5 +26,5 @@
     "lint": "pnpm --filter \"./packages/*\" --filter \"./projects/*\" run lint",
     "precommit": "pnpm run format"
   },
-  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589"
+  "packageManager": "pnpm@8.15.8+sha256.691fe176eea9a8a80df20e4976f3dfb44a04841ceb885638fe2a26174f81e65e"
 }
